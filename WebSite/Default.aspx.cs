@@ -16,7 +16,8 @@ namespace WebSite
 
         protected void btnMensagem_Click(object sender, EventArgs e)
         {
-            Response.Write("Olá Mundo");
+            //Response.Write("Olá Mundo " + txtMensagem.Text);
+            Response.Write("Olá " + Request["txtMensagem"]);
             Response.Write("<script>alert('Você entrou no sistema')</script>");
         }
     }
