@@ -33,6 +33,15 @@ namespace WebSite
         protected global::System.Web.UI.WebControls.TextBox txtMensagem;
 
         /// <summary>
+        /// Controle telefone.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText telefone;
+
+        /// <summary>
         /// Controle btnMensagem.
         /// </summary>
         /// <remarks>
@@ -40,5 +49,32 @@ namespace WebSite
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnMensagem;
+
+        /// <summary>
+        /// Controle ddlContatos.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlContatos;
+
+        /// <summary>
+        /// Controle selectManual.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl selectManual;
+
+        /// <summary>
+        /// Controle gridView.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gridView;
     }
 }

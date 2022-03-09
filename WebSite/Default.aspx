@@ -11,9 +11,24 @@
     <form id="form1" runat="server">
         <div>
             <asp:TextBox runat="server" ID="txtMensagem"/>
-            <input type="text" name="telefone" value="<%= Request["telefone"] %>" id="telefone" runat="server" />
+            <input type="text" name="telefone" id="telefone" runat="server" />
 
             <asp:Button Text="Clique" runat="server" ID="btnMensagem" OnClick="btnMensagem_Click"/>
+            <asp:DropDownList ID="ddlContatos" runat="server">               
+            </asp:DropDownList>
+            
+            &nbsp;&nbsp;&nbsp;
+            
+            <div id="selectManual" name="selectManual" runat="server">            
+            </div>
+            <%--<select id="selectManual" name="selectManual">
+                <% foreach (var valor in contatos)
+                   { %>
+                    <option><%= valor %></option>
+                <% } %>
+            </select>--%>
+            <br />
+            <asp:GridView runat="server" ID="gridView"></asp:GridView>
         </div>
     </form>
 </body>
