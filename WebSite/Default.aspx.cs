@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebSite.Modelo;
 
 namespace WebSite
 {
@@ -28,7 +29,7 @@ namespace WebSite
             selectManual.InnerHtml += "<select>";
             foreach (var valor in contatos)
             {
-                selectManual.InnerHtml += "<option value='"+ valor.Id +"'" + valor.Nome + "</option>";
+                selectManual.InnerHtml += "<option value='"+ valor.Id +"'>" + valor.Nome + "</option>";
             }
             selectManual.InnerHtml += "</select>";
         }
