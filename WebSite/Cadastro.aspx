@@ -13,10 +13,14 @@
             <asp:Panel runat="server" ID="pnlCadastro">
                 <asp:Label Text="Nome: " runat="server" ID="lblNome"/>
                 <asp:TextBox runat="server" ID="txtNome"/>
-                <br />
+                &nbsp;&nbsp;&nbsp;
                 <asp:Label Text="Telefone: " runat="server" ID="lblTelefone"/>
                 <asp:TextBox runat="server" ID="txtTelefone"/>
-
+                <br />
+                <br />
+                <asp:Label Text="Foto: " runat="server" ID="lblFoto"/>
+                <asp:FileUpload runat="server" ID="fileFoto"/>
+                <br /><br />
                 <asp:Button Text="Cadastrar" 
                     runat="server"
                     ID="btnCadastro" OnClick="btnCadastro_Click"/>
@@ -26,7 +30,14 @@
                 <br />
                 <hr />
                 <br />
-                <asp:GridView runat="server" ID="gridResultado"></asp:GridView>
+                <asp:GridView runat="server" ID="gridResultado"
+                    AutoGenerateColumns="false">
+                    <Columns>
+                        <asp:BoundField DataField="Nome" HeaderText="Nome"/>
+                        <asp:BoundField DataField="Telefone" HeaderText="Telefone"/>
+                        <asp:ImageField DataImageUrlField="Foto" HeaderText="Foto" />
+                    </Columns>                    
+                </asp:GridView>
             </asp:Panel>
         </div>
     </form>

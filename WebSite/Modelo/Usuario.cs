@@ -10,6 +10,8 @@ namespace WebSite.Modelo
         public Usuario() { }
         public string Nome { get; set; }
         public string Telefone { get; set; }
+        public string Foto { get; set; }
+
         public static List<Usuario> lista = new List<Usuario>();
 
         public List<Usuario> Todos()

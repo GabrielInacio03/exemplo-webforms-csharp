@@ -27,8 +27,11 @@ namespace WebSite
 
         protected void btnCadastro_Click(object sender, EventArgs e)
         {
-            
-            Usuario usuario = new Usuario() { Nome = txtNome.Text, Telefone = txtTelefone.Text };
+            //upload do arquivo
+            string caminhoArquivo = AppDomain.CurrentDomain.BaseDirectory + System.Configuration.ConfigurationManager.AppSettings["caminhoArquivo"] + @"\" + fileFoto.FileName; //path do arquivo fisico
+            fileFoto.SaveAs(caminhoArquivo);
+
+            Usuario usuario = new Usuario() { Nome = txtNome.Text, Telefone = txtTelefone.Text, Foto = System.Configuration.ConfigurationManager.AppSettings["caminhoArquivo"].Replace(@"\", "/")+ "/" + fileFoto.FileName }; //path de internet
             usuario.Salvar();
 
             txtNome.Text = "";

@@ -69,6 +69,24 @@ namespace WebSite
         protected global::System.Web.UI.WebControls.TextBox txtTelefone;
 
         /// <summary>
+        /// Controle lblFoto.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFoto;
+
+        /// <summary>
+        /// Controle fileFoto.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fileFoto;
+
+        /// <summary>
         /// Controle btnCadastro.
         /// </summary>
         /// <remarks>
