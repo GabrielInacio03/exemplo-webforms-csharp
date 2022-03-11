@@ -24,6 +24,15 @@ namespace WebSite
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Controle Login1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::WebSite.Login Login1;
+
+        /// <summary>
         /// Controle pnlCadastro.
         /// </summary>
         /// <remarks>

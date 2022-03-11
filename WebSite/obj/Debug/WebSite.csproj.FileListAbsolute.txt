@@ -34,3 +34,14 @@ C:\Users\02471\Desktop\Inacio\WebSite\WebSite\obj\Debug\WebSite.csproj.CoreCompi
 C:\Users\02471\Desktop\Inacio\WebSite\WebSite\obj\Debug\WebSite.csproj.CopyComplete
 C:\Users\02471\Desktop\Inacio\WebSite\WebSite\obj\Debug\WebSite.dll
 C:\Users\02471\Desktop\Inacio\WebSite\WebSite\obj\Debug\WebSite.pdb
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\Newtonsoft.Json.dll
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\System.Net.Http.Formatting.dll
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\System.Web.Http.dll
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\System.Web.Http.WebHost.dll
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\Newtonsoft.Json.xml
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\System.Net.Http.Formatting.xml
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\System.Web.Http.xml
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\System.Web.Http.WebHost.xml
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\02471\Desktop\Inacio\WebSite\WebSite\bin\pt-br\System.Web.Http.WebHost.resources.dll
