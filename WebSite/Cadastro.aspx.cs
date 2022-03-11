@@ -6,7 +6,8 @@ namespace WebSite
     public partial class Cadastro : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {           
+        {
+            ctrLogin.Mensagem = "Este é o formulário principal";
             MostrarLista();
         }
 

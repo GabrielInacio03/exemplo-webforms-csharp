@@ -31,6 +31,10 @@
             position: relative;
             padding: 5px;
         }
+        img{
+            width: 80px;
+            height: 80px;
+        }
     </style>
 </head>
 <body>
@@ -43,10 +47,7 @@
             <div>
                 <br />
                 <br />
-                <uc1:Login ID="Login1" runat="server" />
-                <br />
-                <br />
-                <br />
+                <uc1:Login ID="ctrLogin" runat="server" />               
                 <br />
             </div>
             <div>
