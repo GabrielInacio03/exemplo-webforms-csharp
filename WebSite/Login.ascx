@@ -27,7 +27,7 @@
         </div>
     </div>
     <div>
-        <asp:Button Text="Login" runat="server" ID="btnLogin"/>
+        <asp:Button Text="Login" runat="server" ID="btnLogin" OnClick="btnLogin_Click"/>
         <br />
         <br />
         <asp:Label Text="" runat="server" ID="lblMensagem"/>
